@@ -1,7 +1,7 @@
 apiVersion: argoproj.io/v1alpha1
 kind: Application
 metadata:
-  name: tenant-mgmt-frontend-app
+  name: tenant-mgmt-frontend-app-qa
   namespace: argocd
 spec:
   project: default
