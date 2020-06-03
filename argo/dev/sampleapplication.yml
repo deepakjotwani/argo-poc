@@ -27,7 +27,7 @@ spec:
     annotations:
   spec:
     ports:
-    - port: 81
+    - port: 8080
       targetPort: 5000
     selector:
       app: tenant-mgmt-frontend-app
