@@ -1,0 +1,35 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: tenant-mgmt-frontend-app-deploy
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: tenant-mgmt-frontend-app
+  template:
+    metadata:
+      labels:
+        app: tenant-mgmt-frontend-app
+    spec:
+      containers:
+      - image: deepakjotwani/simplr-frontend
+        name: tenant-mgmt-frontend-app
+        ports:
+        - containerPort: 5000
+        imagePullPolicy: IfNotPresent
+---
+
+  apiVersion: v1
+  kind: Service
+  metadata:
+    name: tenant-mgmt-frontend-service
+    annotations:
+  spec:
+    ports:
+    - port: 80
+      targetPort: 5000
+    selector:
+      app: tenant-mgmt-frontend-app
+    type: LoadBalancer
+    
