@@ -29,6 +29,7 @@ spec:
     ports:
     - port: 80
       targetPort: 5000
+      nodePort: 30000
     selector:
       app: tenant-mgmt-frontend-app
     type: LoadBalancer
