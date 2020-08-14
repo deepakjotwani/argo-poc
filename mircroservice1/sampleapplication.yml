@@ -1,20 +1,20 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: tenant-mgmt-frontend-app-deploy
+  name: micro2
 spec:
   replicas: 1
   selector:
     matchLabels:
-      app: tenant-mgmt-frontend-app
+      app:  micro2
   template:
     metadata:
       labels:
-        app: tenant-mgmt-frontend-app
+        app:  micro2
     spec:
       containers:
       - image: deepakjotwani/simplr-frontend
-        name: tenant-mgmt-frontend-app
+        name:  micro2
         ports:
         - containerPort: 5000
         imagePullPolicy: IfNotPresent
@@ -23,13 +23,13 @@ spec:
   apiVersion: v1
   kind: Service
   metadata:
-    name: tenant-mgmt-frontend-service
+    name: micro2-service
     annotations:
   spec:
     ports:
-    - port: 8080
+    - port: 81
       targetPort: 5000
     selector:
-      app: tenant-mgmt-frontend-app
+      app: micro2
     type: LoadBalancer
     
