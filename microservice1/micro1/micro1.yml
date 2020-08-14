@@ -13,7 +13,7 @@ spec:
         app:  micro1
     spec:
       containers:
-      - image: deepakjotwani/simplr-frontend
+      - image: deepakjotwani/simpplr-tnt-be
         name:  micro1
         ports:
         - containerPort: 5000
