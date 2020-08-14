@@ -8,7 +8,7 @@ spec:
   source:
     repoURL: https://github.com/deepakjotwani/argo-poc.git 
     targetRevision: HEAD
-    path: /microservice1
+    path: microservice1
     directory:
       recurse: true
   destination:
