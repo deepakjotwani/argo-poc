@@ -27,7 +27,7 @@ spec:
     annotations:
   spec:
     ports:
-    - port: 8081
+    - port: 9090
       targetPort: 5000
     selector:
       app: micro2
