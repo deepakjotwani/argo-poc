@@ -1,0 +1,17 @@
+_extends: .github
+repository:
+  description: # A short description of the repository that will show up on GitHub
+  topics: # A comma-separated list of topics to set on the repository
+  private: true
+  has_projects: false
+  has_wiki: false
+
+# Teams: give specific teams access to this repository.
+teams:
+  - name: sre
+    permission: admin
+  - name: persistent-admin
+    permission: admin    
+  - name: persistent
+    permission: push
+ 
