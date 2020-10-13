@@ -20,3 +20,19 @@ branches:
       restrictions:
         teams: []
         users: []
+  - name: develop
+    protection:
+      enforce_admins: false
+      required_pull_request_reviews:
+        dismis_stale_reviews: false
+        require_code_owner_reviews: false
+        required_approving_review_count: 5
+        dismissal_restrictions:
+          teams: []
+          users: []
+      required_status_checks:
+        strict: true
+        contexts: []
+      restrictions:
+        teams: []
+        users: []        
