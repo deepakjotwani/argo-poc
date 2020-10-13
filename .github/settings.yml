@@ -17,8 +17,6 @@ branches:
         required_approving_review_count: 2
         dismissal_restrictions:
           teams: [persistent-leads]
-      required_status_checks:
-            strict: true
-            contexts: []        
+      required_status_checks: null       
       restrictions: null
       
