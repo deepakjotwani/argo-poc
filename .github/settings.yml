@@ -7,15 +7,7 @@ repository:
 teams:
   - name: persistent
     permission: push
-branches:
-  - name: master
-    protection:
-      enforce_admins: true
-      required_pull_request_reviews: null
-      required_status_checks:
-        strict: true
-        contexts: []
-      restrictions: null   
+branches:  
   - name: develop
     protection:
       enforce_admins: true
