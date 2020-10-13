@@ -1,4 +1,5 @@
 ---
+_extends: .github  
 repository:
   description: Test Settings
   topics: probot,Settings
