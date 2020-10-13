@@ -1,12 +1,12 @@
 ---
 repository:
-  description:  Test Settings
-  topics:  probot,Settings
+  description: Test Settings
+  topics: probot,Settings
   private: false
   has_projects: false
   has_wiki: false
 
-branches:  
+branches:
   - name: master
     protection:
       enforce_admins: true
