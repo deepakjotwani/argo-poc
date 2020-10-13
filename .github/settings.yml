@@ -1,6 +1,6 @@
 ---
 repository:
-  default_branch: develop
+  default_branch: master
   description: Test
   topics: test
   private: false
@@ -10,33 +10,33 @@ repository:
 branches:
   - name: master
     protection:
-    enforce_admins: true
-    required_pull_request_reviews:
-      dismis_stale_reviews: true
-      require_code_owner_reviews: true
-      required_approving_review_count: 3
-      dismissal_restrictions:
+      enforce_admins: true
+      required_pull_request_reviews:
+        dismis_stale_reviews: true
+        require_code_owner_reviews: true
+        required_approving_review_count: 3
+        dismissal_restrictions:
+          teams: []
+          users: []
+      required_status_checks:
+        strict: true
+        contexts: []
+      restrictions:
         teams: []
         users: []
-    required_status_checks:
-      strict: true
-      contexts: []
-    restrictions:
-      teams: []
-      users: []
   - name: develop
     protection:
-    enforce_admins: true
-    required_pull_request_reviews:
-      dismis_stale_reviews: true
-      require_code_owner_reviews: true
-      required_approving_review_count: 2
-      dismissal_restrictions:
+      enforce_admins: true
+      required_pull_request_reviews:
+        dismis_stale_reviews: true
+        require_code_owner_reviews: true
+        required_approving_review_count: 3
+        dismissal_restrictions:
+          teams: []
+          users: []
+      required_status_checks:
+        strict: true
+        contexts: []
+      restrictions:
         teams: []
         users: []
-    required_status_checks:
-      strict: true
-      contexts: []
-    restrictions:
-      teams: []
-      users: []
