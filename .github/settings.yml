@@ -2,7 +2,6 @@
 repository:
   default_branch: master
   description: Test
-  topics: test
   private: false
   has_projects: false
   has_wiki: false
