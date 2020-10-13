@@ -5,16 +5,6 @@ repository:
   topics: probot,Settings
 
 branches:
-  - name: master
-    protection:
-      enforce_admins: false
-      required_pull_request_reviews:
-        dismis_stale_reviews: false
-        require_code_owner_reviews: false
-        required_approving_review_count: 5
-        dismissal_restrictions: null
-      required_status_checks: null
-      restrictions: null
   - name: develop
     protection:
       enforce_admins: false
@@ -24,4 +14,5 @@ branches:
         required_approving_review_count: 5
         dismissal_restrictions: null
       required_status_checks: null
-      restrictions: null      
+      restrictions: null  
+ 
