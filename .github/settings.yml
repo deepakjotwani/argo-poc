@@ -1,20 +1,16 @@
 ---
-_extends: .github  
 repository:
   description: Test Settings
   topics: probot,Settings
-  private: false
-  has_projects: false
-  has_wiki: false
 
 branches:
   - name: master
     protection:
-      enforce_admins: true
+      enforce_admins: false
       required_pull_request_reviews:
-        dismis_stale_reviews: true
-        require_code_owner_reviews: true
-        required_approving_review_count: 3
+        dismis_stale_reviews: false
+        require_code_owner_reviews: false
+        required_approving_review_count: 5
         dismissal_restrictions:
           teams: []
           users: []
