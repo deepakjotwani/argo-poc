@@ -1,7 +1,4 @@
-# These owners will be the default owners for everything in
-# the repo.
+* @beyondtrust/sre
 
-* jotwanideepak15@gmail.com
-
-.github/settings.yml jotwanideepak15@gmail.com
-.github/CODEOWNERS jotwanideepak15@gmail.com
+.github/settings.yml @beyondtrust/lumberjacks
+.github/CODEOWNERS @beyondtrust/lumberjacks
