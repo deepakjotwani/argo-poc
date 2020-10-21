@@ -2,7 +2,8 @@
 name: Application CI Pipeline on Push
 env:
   ARTIFACTORY_BUCKET: eng-docker-qa-local
-  CONTAINER_IMAGE: beyondtrust-$ARTIFACTORY_BUCKET.jfrog.io/svc-discovery-develop
+  ARTIFACTORY: beyondtrust-$ARTIFACTORY_BUCKET.jfrog.io
+  CONTAINER_IMAGE: $ARTIFACTORY/svc-discovery-develop
 on:
   push:
     branches: [master]
