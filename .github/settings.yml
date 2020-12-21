@@ -2,12 +2,9 @@
 _extends: .github
 repository:
   default_branch: master
-  descritpion: Service that stores/manages the generic asset data discovered from customer cloud environments (AWS, Azure etc.).
+  descritpion: Test
   private: true
   has_projects: false
-teams:
-  - name: persistent
-    permission: push
 branches:
   - name: master
     protection:
