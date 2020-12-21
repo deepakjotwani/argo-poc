@@ -3,7 +3,7 @@ _extends: .github
 repository:
   default_branch: master
   descritpion: Test
-  private: true
+  private: false
   has_projects: false
 branches:
   - name: master
