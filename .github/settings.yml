@@ -6,13 +6,13 @@ repository:
   private: false
   has_projects: false
 branches:
-  - name: "feature/*"
+  - name: develop
     protection:
       enforce_admins: false
       required_pull_request_reviews:
         dismis_stale_reviews: false
         require_code_owner_reviews: false
       required_status_checks:
-        strict: false
+        strict: true
         contexts: []
       restrictions: null
