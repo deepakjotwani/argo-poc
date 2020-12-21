@@ -6,7 +6,7 @@ repository:
   private: false
   has_projects: false
 branches:
-  - name: 'master'
+  - name: master
     protection:
       enforce_admins: false
       required_pull_request_reviews:
@@ -16,7 +16,7 @@ branches:
         strict: true
         contexts: []
       restrictions: null
-  - name: 'feature/*'
+  - name: feature/*
     protection:
       enforce_admins: false
       required_pull_request_reviews:
