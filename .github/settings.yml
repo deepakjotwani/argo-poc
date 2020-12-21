@@ -20,7 +20,7 @@ branches:
     protection:
       enforce_admins: false
       required_pull_request_reviews:
-        dismis_stale_reviews: false
+        dismis_stale_reviews: true
         require_code_owner_reviews: false
       required_status_checks:
         strict: true
