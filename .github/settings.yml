@@ -6,7 +6,7 @@ repository:
   private: false
   has_projects: false
 branches:
-  - name: develop
+  - name: master
     protection:
       enforce_admins: false
       required_pull_request_reviews:
