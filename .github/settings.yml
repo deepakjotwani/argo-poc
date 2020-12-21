@@ -16,7 +16,7 @@ branches:
         strict: false
         contexts: []
       restrictions: null
-  - name: feature/*
+  - name: feature*
     protection:
       enforce_admins: false
       required_pull_request_reviews:
