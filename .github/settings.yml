@@ -1,7 +1,7 @@
 ---
 _extends: .github
 repository:
-  default_branch: master
+  default_branch: develop
   descritpion: Test
   private: false
   has_projects: false
