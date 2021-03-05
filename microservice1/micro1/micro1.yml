@@ -16,7 +16,7 @@ spec:
       - image: micro1-service
         name:  micro1
         ports:
-        - containerPort: 5000
+        - containerPort: 8080
         imagePullPolicy: IfNotPresent
 ---
 
@@ -28,7 +28,7 @@ spec:
   spec:
     ports:
     - port: 8080
-      targetPort: 5000
+      targetPort: 8080
     selector:
       app:  micro1
     type: LoadBalancer
