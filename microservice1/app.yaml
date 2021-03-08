@@ -2,7 +2,7 @@ apiVersion: argoproj.io/v1alpha1
 kind: Application
 metadata:
   annotations:
-      argocd-image-updater.argoproj.io/image-list: micro1-service=deepakjotwani/sample2:latest
+      argocd-image-updater.argoproj.io/image-list: deepakjotwani/sample2:latest
   name: micro1
   namespace: argocd
 spec:
