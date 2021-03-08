@@ -7,4 +7,3 @@ resources:
 
 images:
   - name: micro1-service
-    newName: deepakjotwani/sample2
