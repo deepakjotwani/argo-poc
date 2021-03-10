@@ -23,7 +23,7 @@ spec:
   apiVersion: v1
   kind: Service
   metadata:
-    name: micro1-service
+    name: deepakjotwani/sample2
     annotations:
   spec:
     ports:
