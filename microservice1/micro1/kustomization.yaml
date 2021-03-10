@@ -4,7 +4,3 @@ kind: Kustomization
 
 resources:
   - micro1.yml
-
-images:
-  - name: micro1-service
-    newName: deepakjotwani/sample2
