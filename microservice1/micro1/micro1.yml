@@ -13,7 +13,7 @@ spec:
         app:  micro1
     spec:
       containers:
-      - image: deepakjotwani/sample2:0.2
+      - image: micro1-image
         name:  micro1
         ports:
         - containerPort: 8080
