@@ -13,7 +13,7 @@ spec:
         app:  micro1
     spec:
       containers:
-      - image: deepakjotwani/sample2
+      - image: micro1-image
         name:  micro1
         ports:
         - containerPort: 8080
@@ -27,7 +27,7 @@ spec:
     annotations:
   spec:
     ports:
-    - port: 8080
+    - port: 80
       targetPort: 8080
     selector:
       app:  micro1
