@@ -13,7 +13,8 @@ spec:
         app:  micro1
     spec:
       containers:
-      - name:  micro1
+      - image: deepakjotwani/sample2:0.2
+        name:  micro1
         ports:
         - containerPort: 8080
         imagePullPolicy: IfNotPresent
