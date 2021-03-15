@@ -7,3 +7,5 @@ resources:
 
 images:
   - name: micro1-image
+    newName: deepakjotwani/sample2
+    newTag: 63311cc
