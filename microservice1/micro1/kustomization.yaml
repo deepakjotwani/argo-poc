@@ -4,8 +4,3 @@ kind: Kustomization
 
 resources:
   - micro1.yml
-
-images:
-  - name: micro1-image
-    newName: deepakjotwani/sample2
-    newTag: 63311cc
