@@ -15,3 +15,7 @@ spec:
     path: microservice1/micro1
     repoURL: https://github.com/deepakjotwani/argo-poc.git 
     targetRevision: HEAD
+  syncPolicy:
+    automated:
+      prune: true
+      selfHeal: true
